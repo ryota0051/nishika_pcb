@@ -1,0 +1,10 @@
+{
+  "name": "nishika_pcb",
+  "forwardPorts": [],
+  "dockerFile": "../Dockerfile",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+docker run -p 8888:8888 --shm-size 8G --privileged --gpus all -v $PWD:/work -it --rm nishika-pcb jupyter-lab --ip 0.0.0.0 --allow-root --NotebookApp.token=''
