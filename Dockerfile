@@ -1,6 +1,8 @@
 FROM pytorch/pytorch:1.13.1-cuda11.6-cudnn8-runtime
 
-RUN apt-get update && apt-get install curl -y
+RUN ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
+
+RUN apt-get update && apt-get install -y curl libopencv-dev
 
 ARG work_dir="/work"
 
